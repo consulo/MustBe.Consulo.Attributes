@@ -7,14 +7,14 @@
           <extension id="microsoft-csharp" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
           <extension id="microsoft-dotnet" sdk-module-name="" sdk-name="Microsoft .NET 2.0" target="LIBRARY" debug="true" allow-source-roots="false" file-name="$ModuleName$.$TargetFileExt$" output-dir="$ModuleProductionOutputDirPath$/ms" namespace-prefix="MustBe.Consulo.Attributes" />
           <content url="file://$MODULE_DIR$" />
-          <orderEntry type="module-extension-sdk" extension-id="microsoft-dotnet" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
           <orderEntry type="sourceFolder" />
         </module-layer>
         <module-layer name="mono">
           <extension id="mono-csharp" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
           <extension id="mono-dotnet" sdk-module-name="" sdk-name="Mono .NET 2.0" target="LIBRARY" debug="true" allow-source-roots="false" file-name="$ModuleName$.$TargetFileExt$" output-dir="$ModuleProductionOutputDirPath$/mono" namespace-prefix="MustBe.Consulo.Attributes" />
           <content url="file://$MODULE_DIR$" />
-          <orderEntry type="module-extension-sdk" extension-id="mono-dotnet" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
           <orderEntry type="sourceFolder" />
         </module-layer>
       </module>
